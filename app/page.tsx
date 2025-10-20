@@ -1,12 +1,4 @@
-import os
-
-# Diretório e arquivo
-output_dir = "/mnt/data/app"
-os.makedirs(output_dir, exist_ok=True)
-file_path = os.path.join(output_dir, "page.tsx")
-
-# Novo conteúdo atualizado com design e ícones
-page_content = """import Image from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -122,10 +114,3 @@ export default function Home() {
     </main>
   );
 }
-"""
-
-# Criar o arquivo
-with open(file_path, "w") as f:
-    f.write(page_content)
-
-file_path
