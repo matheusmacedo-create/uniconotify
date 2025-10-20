@@ -1,0 +1,17 @@
+{
+  "routes": [
+    {
+      "name": "Padrão -> ntfy",
+      "match": {},
+      "provider": "ntfy",
+      "overrides": {}
+    }
+  ],
+  "quietHours": {
+    "respect": false,
+    "allowlistCategories": [
+      "alerts"
+    ],
+    "fallbackPriorityDuringQuiet": "low"
+  }
+}
