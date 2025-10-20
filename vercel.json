@@ -18,12 +18,5 @@
   "github": {
     "enabled": true,
     "silent": false
-  },
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs20.x",
-      "memory": 512,
-      "maxDuration": 30
-    }
   }
 }
